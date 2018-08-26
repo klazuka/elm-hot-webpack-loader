@@ -1,0 +1,6 @@
+.idea
+
+node_modules
+test/dist
+test/fixtures/elm-stuff
+test/fixtures/build

@@ -1,0 +1,45 @@
+{
+  "name": "elm-hot-webpack-loader",
+  "version": "0.9.1",
+  "description": "Webpack loader providing hot code swapping for Elm",
+  "keywords": [
+    "Elm",
+    "HMR",
+    "hot",
+    "reload",
+    "loader",
+    "webpack"
+  ],
+  "author": "Keith Lazuka",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/klazuka/elm-hot-webpack-loader"
+  },
+  "license": "MIT",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "ava": {
+    "files": [
+      "test/test.js"
+    ]
+  },
+  "devDependencies": {
+    "ava": "1.0.0-beta.6",
+    "chokidar": "^2.0.4",
+    "elm": "^0.19.0",
+    "elm-hot": "0.9.1",
+    "elm-webpack-loader": "git+ssh://git@github.com:xtian/elm-webpack-loader.git#0.19",
+    "express": "^4.16.3",
+    "file-loader": "1.1.10",
+    "puppeteer": "^1.5.0",
+    "tap-xunit": "^2.3.0",
+    "webpack": "4.0.1",
+    "webpack-cli": "2.0.9",
+    "webpack-dev-server": "3.0.0"
+  },
+  "peerDependencies": {
+    "elm-webpack-loader": "^4.3.1"
+  }
+}
