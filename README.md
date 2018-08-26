@@ -9,7 +9,7 @@ This package provides a Webpack loader that can be used in conjunction with [elm
 
 ## Changelog
 
-### 0.9.1
+### 0.9.2
 - first release as a separate repo & package
 
 ### 0.9.0
