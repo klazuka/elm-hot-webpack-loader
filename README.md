@@ -9,6 +9,9 @@ This package provides a Webpack loader that can be used in conjunction with [elm
 
 ## Changelog
 
+### 1.0.0
+- use official `elm-webpack-loader` 5.0.0
+
 ### 0.9.2
 - first release as a separate repo & package
 
