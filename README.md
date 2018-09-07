@@ -9,6 +9,9 @@ This package provides a Webpack loader that can be used in conjunction with [elm
 
 ## Changelog
 
+### 1.0.1
+- upgrade elm-hot to 1.0.0 (various bug fixes)
+
 ### 1.0.0
 - use official `elm-webpack-loader` 5.0.0
 
@@ -73,8 +76,6 @@ Check out the [example app](https://github.com/klazuka/example-elm-hot-webpack).
 ### Caveats
 
 - Elm 0.18 is not supported. Use fluxxu/elm-hot-loader@0.5.x instead.
-- If your app uses `Browser.application`, then the `Browser.Navigation.Key` must be stored at the root
-  of your app Model.
 
 
 ### Attribution
