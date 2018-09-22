@@ -42,6 +42,6 @@
     "elm-webpack-loader": "^5.0.0"
   },
   "dependencies": {
-    "elm-hot": "^1.0.0"
+    "elm-hot": "^1.0.1"
   }
 }
