@@ -32,7 +32,7 @@
     "elm-webpack-loader": "^5.0.0",
     "express": "^4.16.3",
     "file-loader": "1.1.10",
-    "puppeteer": "^1.5.0",
+    "puppeteer": "^1.19.0",
     "tap-xunit": "^2.3.0",
     "webpack": "^4.29.2",
     "webpack-cli": "^3.2.3",
@@ -42,6 +42,6 @@
     "elm-webpack-loader": "^5.0.0"
   },
   "dependencies": {
-    "elm-hot": "^1.0.1"
+    "elm-hot": "^1.1.1"
   }
 }
