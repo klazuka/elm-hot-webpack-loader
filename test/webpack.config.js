@@ -18,6 +18,7 @@ module.exports = {
                         loader: 'elm-webpack-loader',
                         options: {
                             cwd: __dirname,
+                            pathToElm: '/usr/local/bin/elm',
                             debug: false
                         }
                     }
