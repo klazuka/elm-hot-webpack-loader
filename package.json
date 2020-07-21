@@ -28,12 +28,12 @@
   "devDependencies": {
     "ava": "^3.10.1",
     "chokidar": "^3.4.1",
-    "elm-webpack-loader": "^6.0.0",
+    "elm-webpack-loader": "^6.0.1",
     "express": "^4.17.1",
-    "file-loader": "^4.2.0",
+    "file-loader": "^6.0.0",
     "puppeteer": "^5.2.1",
     "tap-xunit": "^2.4.1",
-    "webpack": "^4.29.2",
+    "webpack": "^4.43.0",
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0"
   },
