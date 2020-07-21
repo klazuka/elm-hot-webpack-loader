@@ -11,11 +11,7 @@ function startServer() {
     // Ideally we would use webpack dev server's NodeJS API to start the server, but I couldn't
     // get HMR to work in that case. So we will settle for just spawning the server in a separate process.
     const command = "npx webpack-dev-server --mode development --port 3333";
-    devServerProcess = childProcess.exec(command, {cwd: __dirname}, (error, stdout, stderr) => {
-        if (error) {
-            console.error(`failed to launch dev server process; error: ${error}`);
-        }
-    });
+    devServerProcess = childProcess.exec(command, {cwd: __dirname});
 }
 
 test.before(async () => {

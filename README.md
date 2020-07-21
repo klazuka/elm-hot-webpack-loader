@@ -1,4 +1,4 @@
-[![CircleCI](https://circleci.com/gh/klazuka/elm-hot-webpack-loader.svg?style=svg)](https://circleci.com/gh/klazuka/elm-hot-webpack-loader)
+![elm-hot-webpack-loader](https://github.com/klazuka/elm-hot-webpack-loader/workflows/elm-hot-webpack-loader/badge.svg)
 
 # elm-hot-webpack-loader
 
