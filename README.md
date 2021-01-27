@@ -9,6 +9,10 @@ This package provides a Webpack loader that can be used in conjunction with [elm
 
 ## Changelog
 
+### 1.1.8
+- upgrade elm-hot to 1.1.6
+- upgrade dependencies
+
 ### 1.1.7
 - upgrade elm-hot to 1.1.5
 - upgrade dependencies
