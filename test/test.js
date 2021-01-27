@@ -33,7 +33,7 @@ test.beforeEach(async t => {
     // TODO [kl] get rid of the brittle sleep. find a better way
     // a one-second delay on my computer is fine, but CircleCI needs more than that.
     console.log("wait for the server to be ready");
-    await page.waitFor(5000);
+    await page.waitForTimeout(5000);
     console.log("done sleeping");
 
     page.on('pageerror', error => {
@@ -117,7 +117,7 @@ async function modifyElmCode(t, page, oldVersion, newVersion, selectorScope = ""
     }
     fs.writeFileSync(pathToElmCode, newElmCode);
     // console.log("Finished writing to the compiled Elm file on disk");
-    await page.waitFor(2 * 1000);
+    await page.waitForTimeout(2 * 1000);
     // console.log("done sleeping");
 
     await checkCodeVersion(t, page, newVersion, selectorScope);
