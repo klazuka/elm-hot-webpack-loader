@@ -1,6 +1,6 @@
 {
   "name": "elm-hot-webpack-loader",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "description": "Webpack loader providing hot code swapping for Elm",
   "keywords": [
     "Elm",
