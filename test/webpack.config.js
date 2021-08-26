@@ -1,4 +1,3 @@
-const webpack = require('webpack');
 const path = require('path');
 
 module.exports = {
@@ -7,13 +6,13 @@ module.exports = {
             {
                 test: /\.html$/,
                 exclude: /node_modules/,
-                loader: 'file-loader?name=[name].[ext]'
+                loader: 'file-loader'
             },
             {
                 test: /\.elm$/,
-                exclude: [/elm-stuff/, /node_modules/],
+                exclude: [ /elm-stuff/, /node_modules/ ],
                 use: [
-                    {loader: path.resolve(__dirname, '../src/index.js')},
+                    { loader: path.resolve(__dirname, '../src/index.js') },
                     {
                         loader: 'elm-webpack-loader',
                         options: {
@@ -27,15 +26,14 @@ module.exports = {
         ]
     },
 
-    plugins: [
-        new webpack.HotModuleReplacementPlugin()
-    ],
+    plugins: [],
 
     mode: 'development',
 
     devServer: {
-        inline: true,
         hot: true,
-        stats: 'errors-only'
+        devMiddleware: {
+            stats: 'errors-only'
+        }
     }
 };
